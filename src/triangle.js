@@ -10,7 +10,7 @@ Triangle.prototype.checkType = function() {
 }
 
 // UI logic
-$(document).ready(function) {
+$(document).ready(function() {
   $('#triangle-checker-form').submit(function(event) {
     event.preventDefault();
     const length1 = $('#length1').val();
