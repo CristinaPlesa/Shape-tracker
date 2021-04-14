@@ -1,4 +1,4 @@
-import Triangle from './../src/triangle.js';
+import Triangle from './../src/js/triangle.js';
 
 // describe('Triangle', () => {
 //   let reusableTriangle;
@@ -11,7 +11,6 @@ import Triangle from './../src/triangle.js';
 //     console.log(reusableTriangle);
 //   });
 // });
-
 
 describe('Triangle', () => {
 
@@ -38,5 +37,3 @@ describe('Triangle', () => {
     expect(equiTriangle.checkType()).toEqual("equilateral triangle");
   });
 });
-
-//hello!
